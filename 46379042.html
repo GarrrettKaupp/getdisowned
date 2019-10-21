@@ -9,14 +9,36 @@
 		<body>
 
 			<style>
+				* {
+				  box-sizing: border-box;
+				}
+
+				.column {
+				  float: left;
+				  width: 33.33%;
+				  padding: 5px;
+				}
+
+				
+				.row::after {
+				  content: "";
+				  clear: both;
+				  display: table;
+				}
+
+
+
+
 				width: 50%;
 				hight: 50%;
 			</style>
 
 
+			<h1 align=center>art</h1>
+		
+
 
 <!--
-			<h1 align=center>art</h1>
 			<p align=left>specimen 2</p>
 			<img src="20190916_215305.jpg" alt="specimen 1">
 -->
